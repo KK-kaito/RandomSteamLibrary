@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<exclusionConfig>
+  <!-- 非表示としているゲームは手動で追記 -->
+  <exclusion>
+    <appId>000</appId>
+    <appTitle>Test</appTitle>
+    <exclusionReason>その他</exclusionReason>
+  </exclusion>
+
+  <!-- 以下、アプリ内で除外したゲーム -->
+  <exclusion>
+    <appId>0000</appId>
+    <appTitle>Test</appTitle>
+    <exclusionReason>その他</exclusionReason>
+  </exclusion>
+</exclusionConfig>
