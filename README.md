@@ -1,3 +1,5 @@
+日本語紹介＆詳細は[こちら](https://ponkotuelf-d.hatenablog.com/entry/2023/02/12/165259)
+
 # RandomSteamLibrary
 
 Randomised display of games owned by Steam.
