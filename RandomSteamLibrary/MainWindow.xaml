@@ -10,7 +10,7 @@
                       FontFamily="Segoe UI"
                       Background="{DynamicResource ThemeBrushKey}"
                       UseLayoutRounding="True"
-                      TextOptions.TextFormattingMode="Display">
+                      TextOptions.TextFormattingMode="Display" WindowStartupLocation="CenterScreen">
 
     <Grid>
         <Grid.RowDefinitions>

@@ -551,14 +551,14 @@ namespace RandomSteamLibrary
                 // 除外リストを読み込む
                 XElement xml = XElement.Load(excFilePath);
 
-                string cmbReasonVal = "";
-                if (cmbReason.SelectedItem == null)
+                string cmbReasonVal = cmbReason.Text;
+                if (string.IsNullOrEmpty(cmbReasonVal))
                 {
                     cmbReasonVal = "";
                 }
                 else
                 {
-                    cmbReasonVal = cmbReason.SelectedItem.ToString();
+                    cmbReasonVal = cmbReason.Text;
                 }
 
                 // 除外リストに現在表示しているゲームを追加する
